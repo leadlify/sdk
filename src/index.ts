@@ -6,7 +6,7 @@ export interface CreateLeadParams {
 }
 
 
-export const LeadlifySDK = (apiKey: string) => {
+export const LeadxhubSDK = (apiKey: string) => {
   return () => ({
     Leads: {
       create: async (params: CreateLeadParams) => {
@@ -20,7 +20,7 @@ export const LeadlifySDK = (apiKey: string) => {
         };
         const parsedRequestBody = JSON.stringify(requestBody);
 
-        const response = await fetch("https://api.leadlify.com/v1/leads", {
+        const response = await fetch("https://api.leadxhub.com/v1/leads", {
           body: parsedRequestBody,
           headers: {
             'x-api-key': apiKey,

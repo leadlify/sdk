@@ -1,11 +1,11 @@
 {
-  "name": "@leadlify/sdk",
+  "name": "@leadxhub/sdk",
   "version": "1.0.3",
-  "description": "Leadlify SDK",
+  "description": "Leadxhub SDK",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "scope": "@leadlify",
+  "scope": "@leadxhub",
   "files": [
     "dist"
   ],
@@ -15,17 +15,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leadlify/sdk.git"
+    "url": "git+https://github.com/leadxhub/sdk.git"
   },
   "keywords": [
-    "leadlify"
+    "leadxhub"
   ],
-  "author": "leadlify",
+  "author": "leadxhub",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leadlify/sdk/issues"
+    "url": "https://github.com/leadxhub/sdk/issues"
   },
-  "homepage": "https://github.com/leadlify/sdk#readme",
+  "homepage": "https://github.com/leadxhub/sdk#readme",
   "devDependencies": {
     "tsup": "^8.0.1",
     "tsx": "^4.7.0",

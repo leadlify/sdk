@@ -40,10 +40,10 @@ var __async = (__this, __arguments, generator) => {
 // src/index.ts
 var src_exports = {};
 __export(src_exports, {
-  LeadlifySDK: () => LeadlifySDK
+  LeadxhubSDK: () => LeadxhubSDK
 });
 module.exports = __toCommonJS(src_exports);
-var LeadlifySDK = (apiKey) => {
+var LeadxhubSDK = (apiKey) => {
   return () => ({
     Leads: {
       create: (params) => __async(void 0, null, function* () {
@@ -55,7 +55,7 @@ var LeadlifySDK = (apiKey) => {
           session_id: sessionId
         };
         const parsedRequestBody = JSON.stringify(requestBody);
-        const response = yield fetch("https://api.leadlify.com/v1/leads", {
+        const response = yield fetch("https://api.leadxhub.com/v1/leads", {
           body: parsedRequestBody,
           headers: {
             "x-api-key": apiKey
@@ -68,6 +68,6 @@ var LeadlifySDK = (apiKey) => {
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  LeadlifySDK
+  LeadxhubSDK
 });
 //# sourceMappingURL=index.js.map

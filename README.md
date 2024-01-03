@@ -1,33 +1,33 @@
-# @leadlify/sdk
+# @leadxhub/sdk
 
-The `@leadlify/sdk` is a JavaScript library that serves as the SDK for interacting with the Leadlify API. This library provides a convenient interface for creating leads by making requests to the Leadlify API.
+The `@leadxhub/sdk` is a JavaScript library that serves as the SDK for interacting with the Leadxhub API. This library provides a convenient interface for creating leads by making requests to the Leadxhub API.
 
 ## Installation
 
-To use the Leadlify SDK in your project, you can install it via npm or yarn.
+To use the Leadxhub SDK in your project, you can install it via npm or yarn.
 
 ```bash
-npm install @leadlify/sdk
+npm install @leadxhub/sdk
 ```
 
 or
 
 ```bash
-yarn add @leadlify/sdk
+yarn add @leadxhub/sdk
 ```
 
 ## Usage
 
 ### Initialization
 
-To use the Leadlify SDK, you need to initialize it with your API key.
+To use the Leadxhub SDK, you need to initialize it with your API key.
 
 ```javascript
-import { LeadlifySDK } from '@leadlify/sdk';
+import { LeadxhubSDK } from '@leadxhub/sdk';
 
 const apiKey = 'your_api_key';
-const leadlify = LeadlifySDK(apiKey);
-const leads = leadlify().Leads;
+const leadxhub = LeadxhubSDK(apiKey);
+const leads = leadxhub().Leads;
 ```
 
 ### Creating a Lead
@@ -52,15 +52,15 @@ try {
 
 ## API Reference
 
-### `LeadlifySDK(apiKey: string)`
+### `LeadxhubSDK(apiKey: string)`
 
-Initialize the Leadlify SDK with your API key.
+Initialize the Leadxhub SDK with your API key.
 
 - **Parameters:**
-  - `apiKey` (string): Your Leadlify API key.
+  - `apiKey` (string): Your Leadxhub API key.
 
 - **Returns:**
-  A function with modules, such as `Leads`, for interacting with the Leadlify API.
+  A function with modules, such as `Leads`, for interacting with the Leadxhub API.
 
 ### `Leads`
 
@@ -78,7 +78,7 @@ Create a lead with the specified parameters.
 
 ## Contributing
 
-If you would like to contribute to the Leadlify SDK, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+If you would like to contribute to the Leadxhub SDK, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## License
 

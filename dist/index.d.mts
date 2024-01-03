@@ -4,10 +4,10 @@ interface CreateLeadParams {
     metadata: Record<string, any>;
     sessionId: string;
 }
-declare const LeadlifySDK: (apiKey: string) => () => {
+declare const LeadxhubSDK: (apiKey: string) => () => {
     Leads: {
         create: (params: CreateLeadParams) => Promise<any>;
     };
 };
 
-export { type CreateLeadParams, LeadlifySDK };
+export { type CreateLeadParams, LeadxhubSDK };
